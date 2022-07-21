@@ -1,0 +1,35 @@
+.exploracao-bg {
+    background-image: url("../images/mountains-universe-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.exploracao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 6.3rem;
+    padding: 0 7rem;
+    &-title {
+        color: var(--tc-heading);
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 125%;      
+    }
+    &-text {
+        color: var(--tc-heading);
+        font-size: 1.8rem;
+        line-height: 160%;
+        max-width: 64.8rem;
+    }
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --tc-text: hsl(240, 7%, 78%);
+    --tc-heading: hsl(240, 9%, 89%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --tc-hover: hsl(194, 97%, 31%);
+
+    font-size: 62.5%;
+}
+.body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #000;
+    color: var(--tc-text);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+}
