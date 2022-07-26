@@ -1,4 +1,5 @@
 import { Router } from './router.js';
+import activeLink from './menuActive.js';
 
 const router = new Router();
 
@@ -12,3 +13,7 @@ router.handle();
 window.onpopstate = () => router.handle();
 window.route = () => router.route();
 /*=================================================================================*/
+
+const linkMenu = document.querySelector("#menu");
+linkMenu.addEventListener("click", activeLink)
+

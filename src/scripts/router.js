@@ -3,6 +3,7 @@ export class Router {
 
     add(routeName, url){
         this.routes[routeName] = url;
+        //console.log(this.routes[routeName]);
     }
 
     route(event){
